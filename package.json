@@ -1,0 +1,19 @@
+{
+  "name": "gamedig-api",
+  "version": "1.0.0",
+  "description": "A simple API for querying game server information using GameDig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.15.0",
+    "gamedig": "^4.0.6",
+    "serve-favicon": "^2.5.0"
+  }
+}
